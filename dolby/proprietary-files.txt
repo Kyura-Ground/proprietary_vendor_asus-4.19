@@ -1,0 +1,14 @@
+# Dolby DAP/DMS subset from Sony stack integration:
+# https://github.com/samsung-gts9u/android_hardware_dolby/tree/d24245e420b44d360fb6e45d959cb255dc306f85
+# Effects are ARM32; the DMS service communicates over HIDL from ARM64.
+
+vendor/lib/libdapparamstorage.so|76e4533652daa80cc88bf7cb6c8299f250e3e221
+vendor/lib64/libdapparamstorage.so|365f781395d3210571854543ed63b449099b0133
+vendor/lib/libdlbpreg.so|325c05934239f23eeab75a32b57803837f02e494
+vendor/lib64/libdlbpreg.so|2178c6d157db32f63552b36eec8a75f80b25bdef
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|539567b700dc21960f01eeb42b0ee390e256f5af
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|57fae6730984c30d3f6f3db0e38e0f3a1976d60d
+vendor/lib/soundfx/libswdap.so|0dded004fcf5295786d5ea7a274446d4f6634722
+vendor/lib64/libdlbdsservice.so|522c560f85b6b4b4952a99f83b10b6728214e08c
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|4e9251c2c8693e9d8ddc8a9f9378d01f1f40e4a1
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|68fa332cab109772433a34bd0d914265466ac9e6
