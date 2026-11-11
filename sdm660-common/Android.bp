@@ -3,14 +3,6 @@
 //
 
 soong_namespace {
-    imports: [
-        "device/asus/sdm660-common",
-        "hardware/qcom-caf/sdm660",
-        "hardware/qcom-caf/wlan",
-        "vendor/qcom/opensource/commonsys/display",
-        "vendor/qcom/opensource/dataservices",
-        "vendor/qcom/opensource/display",
-    ],
 }
 
 cc_prebuilt_library_shared {

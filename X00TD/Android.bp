@@ -4,9 +4,7 @@
 
 soong_namespace {
     imports: [
-        "hardware/qcom-caf/sdm660",
         "vendor/asus/sdm660-common",
-        "vendor/qcom/opensource/display",
     ],
 }
 
